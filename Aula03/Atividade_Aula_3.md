@@ -8,11 +8,11 @@
 
 ### RNFs
 
-| RNF | Característica ISO/IEC 25010 |
-|---|---|---|
-| 1 | A atualização do status do pedido deve ser refletida na tela do usuário em no máximo 5 segundos após a mudança no backend. | **Eficiência de desempenho** (Performance Efficiency) |
-| 2 | A tela de acompanhamento do pedido deve ser compreensível sem necessidade de tutorial, seguindo um fluxo visual intuitivo. | **Usabilidade** (Usability) |
-| 3 | A funcionalidade de acompanhamento de pedidos deve estar disponível 99,5% do tempo, mesmo em picos de acesso. | **Confiabilidade** (Reliability) |
+1) A atualização do status do pedido deve ser refletida na tela do usuário em no máximo 5 segundos após a mudança no backend. | **Eficiência de desempenho** (Performance Efficiency).
+
+2) A tela de acompanhamento do pedido deve ser compreensível sem necessidade de tutorial, seguindo um fluxo visual intuitivo. | **Usabilidade** (Usability).
+
+3) A funcionalidade de acompanhamento de pedidos deve estar disponível 99,5% do tempo, mesmo em picos de acesso. | **Confiabilidade** (Reliability).
 
 ---
 
@@ -26,11 +26,11 @@
 
 ### RNFs
 
-| RNF | Característica ISO/IEC 25010 |
-|---|---|---|
-| 1 | Apenas usuários autenticados com perfil de restaurante devem poder alterar a disponibilidade de um item. | **Segurança** (Security) |
-| 2 | A funcionalidade de marcar/desmarcar disponibilidade deve ser implementada como um módulo isolado, facilitando testes e manutenção futura. | **Manutenibilidade** (Maintainability) |
-| 3 | A alteração de disponibilidade de um item deve ser sincronizada de forma consistente entre a versão web e a versão mobile do aplicativo. | **Compatibilidade** (Compatibility) |
+1) Apenas usuários autenticados com perfil de restaurante devem poder alterar a disponibilidade de um item. | **Segurança** (Security).
+
+2) A funcionalidade de marcar/desmarcar disponibilidade deve ser implementada como um módulo isolado, facilitando testes e manutenção futura. | **Manutenibilidade** (Maintainability).
+
+3) A alteração de disponibilidade de um item deve ser sincronizada de forma consistente entre a versão web e a versão mobile do aplicativo. | **Compatibilidade** (Compatibility).
 
 ---
 
@@ -44,8 +44,8 @@
 
 ### RNFs
 
-| RNF | Característica ISO/IEC 25010 |
-|---|---|---|
-| 1 | O envio do relato de problema deve ser reenviado automaticamente em caso de falha de conexão, garantindo que não se perca mesmo com internet instável. | **Confiabilidade** (Reliability) |
-| 2 | O processo de reportar um problema não deve exigir mais do que 3 toques na tela do entregador. | **Usabilidade** (Usability) |
-| 3 | A funcionalidade de report deve funcionar corretamente nas diferentes versões de Android e iOS utilizadas pelos entregadores. | **Portabilidade** (Portability) |
+1) O envio do relato de problema deve ser reenviado automaticamente em caso de falha de conexão, garantindo que não se perca mesmo com internet instável. | **Confiabilidade** (Reliability).
+
+2) O processo de reportar um problema não deve exigir mais do que 3 toques na tela do entregador. | **Usabilidade** (Usability).
+
+3) A funcionalidade de report deve funcionar corretamente nas diferentes versões de Android e iOS utilizadas pelos entregadores. | **Portabilidade** (Portability).
